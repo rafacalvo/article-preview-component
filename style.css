@@ -151,7 +151,7 @@ a:active {
    background-color: var(--title-font-color);
    color: #fff;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    text-align: center;
    align-items: center;
    border-radius: 12px;
@@ -209,6 +209,10 @@ a:active {
 
 .icons a img {
    width: 100%;
+}
+
+.share__popup {
+   display: none;
 }
 
  /* Add animation (fade in the popup) */
@@ -317,5 +321,9 @@ a:active {
       margin: 0 5px;
       width: 23px;
       height: 23px;
+   }
+
+   .share__popup {
+      display: inline-block;
    }
 }
